@@ -37,5 +37,17 @@ const parentElement = document.getElementById('textUnique');
 parentElement.appendChild (elementDiv);
 
 
-console.log(elementDiv);        
+// console.log(elementDiv);        
  
+//////////////EXO6
+
+const monElement = document.getElementById('monId');
+console.log(monElement); /* debug vérification changement de l'attribut href*/
+const attribute = monElement.getAttribute('href');
+console.log(attribute);
+
+const attributeChanged = monElement.setAttribute ('href','#')
+console.log(attributeChanged);
+console.log(attribute);
+
+////////////////////////// 
