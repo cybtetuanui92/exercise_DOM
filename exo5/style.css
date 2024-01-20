@@ -1,0 +1,10 @@
+.toggleColor{
+    background-color: brown;
+    color: white;
+}
+#btn {
+    cursor: pointer;
+}
+#btn:hover {
+    background-color: greenyellow;
+}
